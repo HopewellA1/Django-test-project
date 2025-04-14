@@ -1,0 +1,11 @@
+{% extends 'todo/base.html' %}
+
+{% block content %}
+
+{{ todo.tittle }}
+
+<form action="POST">
+{{ form.as_p }}
+</form>
+
+{% endblock %}
